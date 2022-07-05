@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url("/image/130941-abstract-blue-and-white-polygon-pattern-background.jpg");
+    background-size: cover;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+
+}
+
+nav a {
+    text-decoration: none;
+    float: right;
+    margin: 10px 25px;
+    font-size: 18px;
+
+}
+
+.section {
+
+    height: 500px;
+    padding: 100px;
+    margin: 10px 60px;
+    background-color: aliceblue;
+    border-radius: 30px;
+}
+
+.myself {
+
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.myworks a {
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+    margin-left: auto;
+}
+
+.mysites {
+    margin: 35px 10px;
+    padding: 15px;
+    font-size: 30px;
+    padding-left: 1px;
+}
+
+.download-button {
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 30px;
+    width: 150px;
+    border: lighter;
+
+}
+.download-button:hover{
+    background-color: rgb(0, 132, 255);
+    color: white;
+}
+
+#mypicture {
+    height: 370px;
+    border-radius: 20px;
+    float: right;
+    margin-top: 10px;
+    width: 330px;
+}
+ a:hover{
+ color: rgb(67, 127, 218);
+ }
